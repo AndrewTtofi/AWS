@@ -4,3 +4,15 @@ How to choose an AWS Region?
 Compliance: with data governance and legal requirements: data never leaves a region without your explicit permission
 Proximity to customers: reduced latency
 Available services within a Region: new services and new features aren't available in every Region
+
+
+MFA devices options in AWS:
+Virtual MFA Device:
+    Google Authenticator
+    Authy
+Universal 2nd Factor (U2F) Security Key
+    YubiKey (usb that contains your keys) by Yubico -> Not managed by AWS
+Hardware Key Fob MFA Device
+    Key Device (displays keys - Hellenic Thingy) provided by Gemalto
+Hardware Key Fob MFA Device for AWS GovCloud (US)
+
